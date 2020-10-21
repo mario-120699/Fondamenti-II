@@ -26,9 +26,11 @@ modificate al variare della definizione di ElemType.
 
 #ifndef LIST_INT_H_
 #define LIST_INT_H_
-
+# define _CRT_SECURE_NO_WARNINGS
+#include <stdlib.h>
 #include <stdbool.h>
 #include <stdio.h>
+
 
 /*****************************************************************************/
 /*                                 Element                                   */

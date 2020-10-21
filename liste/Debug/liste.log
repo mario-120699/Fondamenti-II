@@ -1,0 +1,4 @@
+﻿  intersect.c
+f:\uni\1° anno\fondamenti di infomatica 2\fondamenti-ii\liste\intersect.c(8): warning C4133: 'function': incompatible types - from 'const Item *' to 'const ElemType *'
+f:\uni\1° anno\fondamenti di infomatica 2\fondamenti-ii\liste\intersect.c(21): warning C4133: 'function': incompatible types - from 'const ElemType *' to 'const Item *'
+  liste.vcxproj -> F:\uni\1° anno\Fondamenti di Infomatica 2\Fondamenti-II\liste\Debug\liste.exe

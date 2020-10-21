@@ -13,32 +13,44 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\loadElem">
+      <UniqueIdentifier>{c341f26f-382a-4a07-8fc6-85d7eec2d50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntersectElem">
+      <UniqueIdentifier>{b42cdfc1-017f-4a63-bddc-085a6bf89c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{cdd1fcc1-4902-4e2a-91e5-3ac175a018a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list_int.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="load.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\loadElem</Filter>
+    </ClCompile>
+    <ClCompile Include="intersect.c">
+      <Filter>Source Files\IntersectElem</Filter>
+    </ClCompile>
+    <ClCompile Include="list_int.c">
+      <Filter>Source Files\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="list_int.h">
+    <Text Include="data_02.txt">
       <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    </Text>
     <Text Include="data_00.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="data_01.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="data_02.txt">
-      <Filter>Source Files</Filter>
-    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="list_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
