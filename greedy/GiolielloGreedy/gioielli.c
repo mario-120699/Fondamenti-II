@@ -1,4 +1,3 @@
-
 #include "gioielli.h"
 
 int leggiDati(FILE *f, Gioiello **g)
@@ -20,6 +19,10 @@ int leggiDati(FILE *f, Gioiello **g)
 	return i;
 }
 
+int TrovaMigliore(Gioiello * g, int n)
+{
+
+}
 
 Gioiello *Gioielli(const char * filename, float b, int * ret_size)
 {
